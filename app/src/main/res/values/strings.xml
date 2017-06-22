@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">航发热表</string>
+    <string name="loading">加载中…</string>
+    <string name="app_bluetoothstatus">蓝牙状态</string>
+    <string name="app_bluetoothunconnect">蓝牙未配对设备</string>
+    <string name="app_bluetoothconnect">蓝牙已配对设备</string>
+    <string name="app_bluetoothunlinked">蓝牙未配连接</string>
+    <string name="app_bluetoothsearch">查找设备</string>
+    <string name="app_bluetoothcancel">取消</string>
+    <string name="app_notice">您确定要断开当前蓝牙连接吗？</string>
+    <string name="click_again_exit">再按一次退出程序</string>
+    <string name="cancel2">取消</string>
+    <string name="skip_seconds">跳过\n%1$ss</string>
+
+    <string name="main_tab_name_watermeter">水表</string>
+    <string name="main_tab_name_hotmeter">热表</string>
+    <string name="main_tab_name_data">读表</string>
+    <string name="main_tab_name_modify">误差</string>
+    <string name="main_tab_name_bluetooth">OK</string>
+    <string name="main_tab_name_gprs">GPRS</string>
+    <string name="main_tab_name_display">显示</string>
+    <string name="main_tab_name_topworx">阀门</string>
+
+    <string name="main_navigation_readdata">读表数据</string>
+    <string name="readdata_meterid">点击右侧获取表号</string>
+    <string name="readdata_getmeterid">获取表号</string>
+    <string name="readdata_check">标准单位</string>
+    <string name="readmeter_t1">出厂编码</string>
+    <string name="readmeter_t2">发生时间</string>
+    <string name="readmeter_t3">值</string>
+
+    <string name="main_navigation_amenderr">误差调整</string>
+    <string name="amenderr_meterid">出厂编码</string>
+    <string name="amenderr_meteridhint">请输入8位出厂编码</string>
+    <string name="amenderr_readparameter">读流量系数</string>
+    <string name="amenderr_name">流量点</string>
+    <string name="amenderr_err">偏±0.00%</string>
+    <string name="amenderr_qnold">原始系数</string>
+    <string name="amenderr_qnnew">生成系数</string>
+    <string name="amenderr_qn">修常用</string>
+    <string name="amenderr_qn_1hint">误差</string>
+    <string name="amenderr_qn_2hint">原系数</string>
+    <string name="amenderr_qn_3hint">新系数</string>
+    <string name="amenderr_qn2">修 0. 2</string>
+    <string name="amenderr_qn2_1hint">误差</string>
+    <string name="amenderr_qn2_2hint">原系数</string>
+    <string name="amenderr_qn2_3hint">新系数</string>
+    <string name="amenderr_qn1">修 0. 1 </string>
+    <string name="amenderr_qn1_1hint">误差</string>
+    <string name="amenderr_qn1_2hint">原系数</string>
+    <string name="amenderr_qn1_3hint">新系数</string>
+    <string name="amenderr_qmin">修最小</string>
+    <string name="amenderr_qmin_1hint">误差</string>
+    <string name="amenderr_qmin_2hint">原系数</string>
+    <string name="amenderr_qmin_3hint">新系数</string>
+    <string name="amenderr_setq">误差修正</string>
+    <string name="amenderr_setAdjust">调整</string>
+    <string name="amenderr_setCancle">取消</string>
+    <string name="amenderr_setOk">确认</string>
+    <string name="amenderr_notice">请联系迈拓售后，获取修改密码</string>
+    <string name="amenderr_reset">恢复出厂值</string>
+    <string name="amenderr_totalpoint">选择口径 </string>
+
+    <string name="main_navigation_lcd">LCD显示</string>
+    <string name="main_con">蓝牙未连接</string>
+    <string name="main_connect">连接</string>
+    <string name="lcd_meterid">显示表号</string>
+    <string name="lcd_time">显示时钟</string>
+    <string name="lcd_flowcoef">流量系数+分界点+温度补偿</string>
+    <string name="lcd_flowrate">瞬时流量</string>
+    <string name="lcd_total">累计流量</string>
+    <string name="lcd_static">显示静态值</string>
+    <string name="lcd_sleeptimeandvol">睡眠+电压</string>
+    <string name="lcd_startandsize">始动+口径</string>
+    <string name="lcd_slopeandamend">斜率+修正值</string>
+    <string name="lcd_ver">版本号</string>
+    <string name="lcd_t1">进水温度</string>
+    <string name="lcd_t2">出水温度</string>
+    <string name="lcd_A1">显示A1界面</string>
+    <string name="lcd_A2">显示A2界面</string>
+    <string name="lcd_A3">显示A3界面</string>
+
+</resources>

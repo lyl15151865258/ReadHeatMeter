@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_l1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/green_200"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:text="@string/readmeter_t1"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="@dimen/dp_2"
+        android:layout_height="fill_parent"
+        android:background="@color/skyblue" />
+
+    <TextView
+        android:id="@+id/text_l2"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/green_200"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:text="读表时间"
+        android:textColor="@color/black" />
+
+    <View
+        android:layout_width="@dimen/dp_2"
+        android:layout_height="fill_parent"
+        android:background="@color/skyblue" />
+
+    <TextView
+        android:id="@+id/text_l3"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/green_200"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_5"
+        android:text="读取值"
+        android:textColor="@color/black" />
+
+</LinearLayout>

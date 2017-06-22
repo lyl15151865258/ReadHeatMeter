@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_slight"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <Button
+            android:id="@+id/btn_exportRecord"
+            style="@style/button_common_blue_s"
+            android:gravity="center"
+            android:text="导出记录" />
+
+        <TextView
+            android:id="@+id/tv_meterId"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_40"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_x"
+            android:gravity="center"
+            android:hint="@string/readdata_meterid"
+            android:maxLength="8"
+            android:textSize="@dimen/sp_18"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/Buttonreadparameter"
+            style="@style/button_common_blue_s"
+            android:gravity="center"
+            android:text="@string/readdata_getmeterid" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/skyblue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_l1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/green_300"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:text="@string/readmeter_t1"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/dp_2"
+            android:layout_height="match_parent"
+            android:background="@color/skyblue" />
+
+        <TextView
+            android:id="@+id/text_l2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/green_300"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:text="读表时间"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="@dimen/dp_2"
+            android:layout_height="fill_parent"
+            android:background="@color/skyblue" />
+
+        <TextView
+            android:id="@+id/text_l3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@color/green_300"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:text="读取值"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/skyblue" />
+
+    <ListView
+        android:id="@+id/listViewreaddata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/skyblue"
+        android:dividerHeight="1.0dip"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:textColor="@color/black" />
+</LinearLayout>

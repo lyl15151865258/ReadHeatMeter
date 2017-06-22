@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_experience_content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_meterId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_recordTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_productType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_sumCool"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_sumHeat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_power"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_flowRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_closeTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_valveStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_t1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_t2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_workTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_meterTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_voltage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_meterStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#aa000000"
+        android:textSize="14sp" />
+
+</LinearLayout>
